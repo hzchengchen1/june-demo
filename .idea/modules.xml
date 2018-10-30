@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/june-demo.iml" filepath="$PROJECT_DIR$/june-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/june-demo-generic/june-demo-generic.iml" filepath="$PROJECT_DIR$/june-demo-generic/june-demo-generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml" filepath="$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/june-demo-starter/june-demo-starter.iml" filepath="$PROJECT_DIR$/june-demo-starter/june-demo-starter.iml" />
     </modules>
   </component>

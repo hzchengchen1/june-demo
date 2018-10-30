@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="june-demo-generic" />
+        <module name="june-demo-practice" />
         <module name="june-demo-starter" />
         <module name="june-demo-tool" />
       </profile>
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="june-demo" target="1.5" />
       <module name="june-demo-generic" target="1.5" />
+      <module name="june-demo-practice" target="1.5" />
       <module name="june-demo-starter" target="1.5" />
       <module name="june-demo-starter (1)" target="1.5" />
       <module name="june-demo-tool" target="1.5" />

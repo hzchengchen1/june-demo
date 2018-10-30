@@ -13,9 +13,11 @@
     <modules>
         <module>june-demo-generic</module>
         <module>june-demo-starter</module>
+        <module>june-demo-practice</module>
     </modules>
 
     <properties>
+
     </properties>
 
     <dependencyManagement>
