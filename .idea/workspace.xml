@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ddbf37-62ef-458d-958e-f453b5c1312f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/june-demo-generic/target/" />
@@ -135,6 +129,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
     <option name="width" value="1936" />
     <option name="height" value="1015" />
   </component>
@@ -321,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540902649806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="misc june-demo-practice module add">
+      <created>1540914120404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540914120405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -370,7 +372,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="misc First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="misc First commit" />
+    <MESSAGE value="misc june-demo-practice module add" />
+    <option name="LAST_COMMIT_MESSAGE" value="misc june-demo-practice module add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

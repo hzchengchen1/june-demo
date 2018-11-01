@@ -1,4 +1,4 @@
-package com.june.demo.demo.guava.collections;
+package com.june.demo.guava.collection;
 
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBasedTable;
