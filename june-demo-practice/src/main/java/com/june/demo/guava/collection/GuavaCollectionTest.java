@@ -10,7 +10,7 @@ import com.google.common.collect.Table;
  *
  * @author think
  */
-public class GuavaDemo {
+public class GuavaCollectionTest {
 
     /**
      * com.google.common.collect.BiMap demo

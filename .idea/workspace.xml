@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ddbf37-62ef-458d-958e-f453b5c1312f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml" afterPath="$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/june-demo-practice/pom.xml" afterPath="$PROJECT_DIR$/june-demo-practice/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/june-demo-generic/target/" />
@@ -21,48 +26,70 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="0">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="june-demo.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/june-demo.iml">
+      <file leaf-file-name="GuavaCollectionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="399">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/june-demo-starter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuavaDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/demo/guava/collections/GuavaDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/june-demo-practice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3811">
-              <caret line="193" column="12" lean-forward="false" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+            <state relative-caret-position="399">
+              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AQSTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1449">
+              <caret line="361" column="71" lean-forward="false" selection-start-line="361" selection-start-column="71" selection-end-line="361" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1050">
+              <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -71,7 +98,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/june-demo-generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
+            <state relative-caret-position="84">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
@@ -81,14 +108,79 @@
       <file leaf-file-name="june-demo-practice.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-4177">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-882">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1541039582350" expanded="true" signature="49832:49849" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="49832:49867" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="49832:49880" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="49832:49895" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="49930:52558" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="49943:52543" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="49997:50292" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50016:50277" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50079:50257" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50119:50223" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50140:50201" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50342:50669" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50361:50654" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50456:50634" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50496:50600" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50517:50578" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50720:51039" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50739:51024" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50826:51004" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50866:50970" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="50887:50948" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51082:51388" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51101:51373" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51175:51353" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51215:51319" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51236:51297" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51439:51799" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51458:51784" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51547:51764" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51587:51730" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51608:51708" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51834:52140" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51853:52125" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51927:52105" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51967:52071" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="51988:52049" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="52192:52529" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="52211:52514" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="52316:52494" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="52356:52460" ph="..." />
+                <marker date="1541039582350" expanded="true" signature="52377:52438" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>guava</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,7 +195,11 @@
       <list>
         <option value="$PROJECT_DIR$/june-demo-tool/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaDemo.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java" />
       </list>
     </option>
   </component>
@@ -129,7 +225,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
+    <option name="x" value="-7" />
+    <option name="y" value="-1088" />
     <option name="width" value="1936" />
     <option name="height" value="1015" />
   </component>
@@ -162,8 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,18 +269,35 @@
             <path>
               <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="june-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="june-demo-generic" type="462c0819:PsiDirectoryNode" />
+              <item name="june-demo-practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="june-demo" type="462c0819:PsiDirectoryNode" />
               <item name="june-demo-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="june-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="june-demo-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="june-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="june-demo-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,6 +309,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="AbstractQueuedSynchronizer&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;lis&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/List.java&#10;list&#9;PSI&#9;JAVA://java.awt.List" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,6 +415,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b7ddbf37-62ef-458d-958e-f453b5c1312f" name="Default" comment="" />
@@ -327,18 +444,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-7" y="-1088" width="1936" height="1015" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34137514" sideWeight="0.25697425" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42490843" sideWeight="0.44366953" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15611587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34137514" sideWeight="0.7430258" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34432235" sideWeight="0.7398069" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38089758" sideWeight="0.63066953" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22798553" sideWeight="0.46995708" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873276" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42490843" sideWeight="0.55633044" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28433478" sideWeight="0.58709675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28809014" sideWeight="0.58709675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.027114967" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6849315" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23481561" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42347527" sideWeight="0.70680344" order="3" side_tool="false" content_ui="tabs" />
@@ -357,15 +476,39 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.49784017" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873276" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06695464" sideWeight="0.41290322" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6849315" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -380,6 +523,72 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -408,15 +617,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/demo/guava/collections/GuavaDemo.java">
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -424,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -457,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -465,37 +673,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/june-demo-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/demo/guava/collections/GuavaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/june-demo-generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
+        <state relative-caret-position="84">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
@@ -503,16 +694,124 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="0">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050">
+          <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1449">
+          <caret line="361" column="71" lean-forward="false" selection-start-line="361" selection-start-column="71" selection-end-line="361" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="219" column="23" lean-forward="false" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/june-demo-practice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3811">
-          <caret line="193" column="12" lean-forward="false" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+        <state relative-caret-position="399">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-882">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1541039582350" expanded="true" signature="49832:49849" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="49832:49867" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="49832:49880" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="49832:49895" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="49930:52558" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="49943:52543" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="49997:50292" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50016:50277" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50079:50257" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50119:50223" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50140:50201" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50342:50669" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50361:50654" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50456:50634" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50496:50600" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50517:50578" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50720:51039" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50739:51024" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50826:51004" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50866:50970" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="50887:50948" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51082:51388" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51101:51373" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51175:51353" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51215:51319" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51236:51297" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51439:51799" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51458:51784" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51547:51764" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51587:51730" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51608:51708" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51834:52140" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51853:52125" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51927:52105" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51967:52071" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="51988:52049" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="52192:52529" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="52211:52514" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="52316:52494" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="52356:52460" ph="..." />
+            <marker date="1541039582350" expanded="true" signature="52377:52438" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4177">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
