@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ddbf37-62ef-458d-958e-f453b5c1312f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,14 +19,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ZookeeperClientTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZookeeperClientTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2688">
+              <caret line="787" column="131" lean-forward="true" selection-start-line="787" selection-start-column="131" selection-end-line="787" selection-end-column="131" />
+              <folding>
+                <marker date="1541345684845" expanded="true" signature="177706:177723" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177706:177741" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177706:177754" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177706:177769" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177804:180413" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177817:180398" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177871:178166" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177890:178151" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177953:178131" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="177993:178097" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178014:178075" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178216:178525" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178235:178510" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178312:178490" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178352:178456" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178373:178434" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178576:178895" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178595:178880" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178682:178860" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178722:178826" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178743:178804" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178938:179244" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="178957:179229" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="179031:179209" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="179071:179175" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="179092:179153" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="179295:179654" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="179314:179639" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="179402:179619" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="179442:179585" ph="..." />
+                <marker date="1541345684845" expanded="true" signature="179463:179563" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +141,6 @@
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaDemo.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/june-demo-generic/pom.xml" />
@@ -101,6 +153,7 @@
         <option value="$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/util/ToolUtil.java" />
         <option value="$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/util/CmdUtil.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClientTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -339,7 +392,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="SearchEverywhereHistoryKey" value="zoomain&#9;PSI&#9;JAVA://org.apache.zookeeper.ZooKeeperMain&#10;zookeeperMain&#9;PSI&#9;JAVA://org.apache.zookeeper.ZooKeeperMain&#10;abstraq&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;list&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/List.java&#10;pom&#9;FILE&#9;file://D:/Code/june-demo/june-demo-practice/pom.xml&#10;getSingleton&#9;PSI&#9;JAVA://org.slf4j.impl.StaticLoggerBinder#getSingleton&#10;AbstractQueuedSynchronizer&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;lis&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/List.java" />
+    <property name="SearchEverywhereHistoryKey" value="git&#9;FILE&#9;file://D:/Code/june-demo/.gitignore&#10;zoomain&#9;PSI&#9;JAVA://org.apache.zookeeper.ZooKeeperMain&#10;zookeeperMain&#9;PSI&#9;JAVA://org.apache.zookeeper.ZooKeeperMain&#10;abstraq&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;list&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/List.java&#10;pom&#9;FILE&#9;file://D:/Code/june-demo/june-demo-practice/pom.xml&#10;getSingleton&#9;PSI&#9;JAVA://org.slf4j.impl.StaticLoggerBinder#getSingleton&#10;AbstractQueuedSynchronizer&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;lis&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/List.java" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;D:/Code/june-demo/june-demo-practice/june-demo-practice.iml" />
   </component>
   <component name="RecentsManager">
@@ -613,25 +666,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2402,6 +2440,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2409,6 +2448,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2416,6 +2456,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2423,6 +2464,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
           <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2430,6 +2472,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2437,6 +2480,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2444,6 +2488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2451,6 +2496,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2474,11 +2520,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2688">
+          <caret line="787" column="131" lean-forward="true" selection-start-line="787" selection-start-column="131" selection-end-line="787" selection-end-column="131" />
+          <folding>
+            <marker date="1541345684845" expanded="true" signature="177706:177723" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177706:177741" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177706:177754" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177706:177769" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177804:180413" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177817:180398" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177871:178166" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177890:178151" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177953:178131" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="177993:178097" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178014:178075" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178216:178525" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178235:178510" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178312:178490" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178352:178456" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178373:178434" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178576:178895" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178595:178880" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178682:178860" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178722:178826" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178743:178804" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178938:179244" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="178957:179229" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="179031:179209" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="179071:179175" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="179092:179153" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="179295:179654" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="179314:179639" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="179402:179619" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="179442:179585" ph="..." />
+            <marker date="1541345684845" expanded="true" signature="179463:179563" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
