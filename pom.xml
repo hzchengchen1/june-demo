@@ -11,8 +11,11 @@
     <name>june-demo</name>
 
     <modules>
+        <!-- 基本方法，数据库底层相关 -->
         <module>june-demo-generic</module>
+        <!-- 工程启动相关 -->
         <module>june-demo-starter</module>
+        <!-- 技术原理分析及相关demo -->
         <module>june-demo-practice</module>
     </modules>
 

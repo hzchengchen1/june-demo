@@ -13,9 +13,16 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!-- db相关 -->
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.6</version>
         </dependency>
     </dependencies>
 </project>
