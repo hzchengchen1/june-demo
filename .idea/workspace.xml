@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ddbf37-62ef-458d-958e-f453b5c1312f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/DenyPolicy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/InternalTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/RunnableDenyException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/RunnableQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/ThreadFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/ThreadPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/impl/BasicThreadPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/impl/LinkedRunnableQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/io/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/jdk8/LambdaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml" afterPath="$PROJECT_DIR$/june-demo-practice/june-demo-practice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/june-demo-practice/pom.xml" afterPath="$PROJECT_DIR$/june-demo-practice/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/lock/SpinLockTest.java" afterPath="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/lock/SpinLockTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/june-demo-starter/june-demo-starter.iml" afterPath="$PROJECT_DIR$/june-demo-starter/june-demo-starter.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/june-demo-generic/target/" />
@@ -19,11 +33,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ZookeeperClientTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClientTest.java">
+      <file leaf-file-name="RunnableQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/RunnableQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InternalTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/InternalTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/io/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,76 +65,106 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="LambdaTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/jdk8/LambdaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2688">
-              <caret line="787" column="131" lean-forward="true" selection-start-line="787" selection-start-column="131" selection-end-line="787" selection-end-column="131" />
-              <folding>
-                <marker date="1541345684845" expanded="true" signature="177706:177723" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177706:177741" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177706:177754" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177706:177769" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177804:180413" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177817:180398" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177871:178166" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177890:178151" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177953:178131" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="177993:178097" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178014:178075" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178216:178525" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178235:178510" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178312:178490" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178352:178456" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178373:178434" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178576:178895" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178595:178880" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178682:178860" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178722:178826" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178743:178804" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178938:179244" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="178957:179229" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="179031:179209" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="179071:179175" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="179092:179153" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="179295:179654" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="179314:179639" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="179402:179619" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="179442:179585" ph="..." />
-                <marker date="1541345684845" expanded="true" signature="179463:179563" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZooDefs.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Users/think/.m2/repository/org/apache/zookeeper/zookeeper/3.4.3/zookeeper-3.4.3-sources.jar!/org/apache/zookeeper/ZooDefs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZookeeperClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="468">
+              <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#398#405#0" expanded="true" />
+                <element signature="e#2455#2456#0" expanded="true" />
+                <element signature="e#2483#2484#0" expanded="true" />
+                <element signature="e#2525#2526#0" expanded="true" />
+                <element signature="e#2559#2560#0" expanded="true" />
+                <element signature="e#2589#2590#0" expanded="true" />
+                <element signature="e#2618#2619#0" expanded="true" />
+                <element signature="e#2659#2660#0" expanded="true" />
+                <element signature="e#2695#2696#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicThreadPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/impl/BasicThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedRunnableQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/impl/LinkedRunnableQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="30" column="37" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/ThreadFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DenyPolicy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/DenyPolicy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunnableDenyException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/RunnableDenyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1854">
+              <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,6 +175,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -141,19 +206,36 @@
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaDemo.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/june-demo-generic/pom.xml" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/mybatis/MyBatisTest.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/zkbase/ZookeeperBaseTest.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClient.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperBaseTest.java" />
-        <option value="$PROJECT_DIR$/june-demo-practice/pom.xml" />
         <option value="$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/constant/ZookeeperConstant.java" />
         <option value="$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/util/ToolUtil.java" />
         <option value="$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/util/CmdUtil.java" />
         <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClientTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/june-demo-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/lock/SpinLock.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/lock/SpinLockTest.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/RunnableQueue.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/DenyPolicy.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/RunnableDenyException.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/ThreadFactory.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/RunnableQueue.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/InternalTask.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/base/DenyPolicy.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/DenyPolicy.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/impl/LinkedRunnableQueue.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/impl/BasicThreadPool.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/InternalTask.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/io/Test.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/jdk8/LamdaTest.java" />
+        <option value="$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/jdk8/LambdaTest.java" />
       </list>
     </option>
   </component>
@@ -179,10 +261,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="94" />
-    <option name="width" value="1936" />
-    <option name="height" value="1015" />
+    <option name="x" value="22" />
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -192,7 +274,52 @@
             <id />
           </State>
           <State>
-            <id>JSP Inspections</id>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
           </State>
         </expanded-state>
       </profile-state>
@@ -213,7 +340,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,11 +390,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="june-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="june-demo-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="june-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -379,12 +537,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -413,7 +572,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZookeeperClientTest">
+  <component name="RunManager" selected="Application.LambdaTest">
+    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.june.demo.jdk8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.june.demo.jdk8.LambdaTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="june-demo-practice" />
+      <envs />
+    </configuration>
+    <configuration name="SpinLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.june.demo.concurrency.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.june.demo.concurrency.lock.SpinLockTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="june-demo-practice" />
+      <envs />
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.june.demo.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.june.demo.io.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="june-demo-practice" />
+      <envs />
+    </configuration>
     <configuration name="ZookeeperClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -514,9 +730,18 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.ZookeeperClientTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SpinLockTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LambdaTest" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.ZookeeperClientTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.LambdaTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SpinLockTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ZookeeperClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -564,22 +789,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018018" sideWeight="0.48023504" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3437877" sideWeight="0.2859442" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.072424896" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3437877" sideWeight="0.7140558" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3310811" sideWeight="0.2943376" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.072115384" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38089758" sideWeight="0.63066953" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3310811" sideWeight="0.70566237" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873276" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32356533" sideWeight="0.54560083" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34346846" sideWeight="0.5261752" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20761803" sideWeight="0.58709675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786325" sideWeight="0.58709675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.027114967" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23481561" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2668919" sideWeight="0.7275641" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12545235" sideWeight="0.77896994" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -589,11 +815,10 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3028083" sideWeight="0.51877683" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="93" y="-988" width="1736" height="815" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="701" y="427" width="518" height="185" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.49784017" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -661,1647 +886,11 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-generic/src/main/resources/config.xml" />
-    <entry file="jar://D:/Users/think/.m2/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-819">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Users/think/.m2/repository/org/apache/zookeeper/zookeeper/3.4.3/zookeeper-3.4.3.jar!/org/apache/zookeeper/ZooKeeper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="498" column="25" lean-forward="false" selection-start-line="498" selection-start-column="25" selection-end-line="498" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Users/think/.m2/repository/org/slf4j/slf4j-nop/1.6.3/slf4j-nop-1.6.3.jar!/org/slf4j/impl/StaticLoggerBinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Users/think/.m2/repository/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.jar!/org/slf4j/LoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Users/think/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="104" column="22" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Users/think/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar!/org/slf4j/LoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="e#8451#8452#0" expanded="true" />
-            <element signature="e#8500#8501#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.june.demo:june-demo-practice:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.june.demo:june-demo-practice:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="1335.026785696356">com.june.demo:june-demo-practice:1.0-SNAPSHOT</node>
-            <node x="1298.0" y="736.831406340988">com.google.guava:guava:jar:19.0</node>
-            <node x="357.0" y="154.0">junit:junit:jar:4.11</node>
-            <node x="643.0" y="154.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="668.0" y="531.541666666667">org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="317.0" y="590.041666666667">ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="648.0" y="608.541666666667">ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="327.5" y="510.875">org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="679.5" y="1361.8333333333335">log4j:log4j:jar:1.2.17</node>
-            <node x="291.5" y="5322.799068658869">mysql:mysql-connector-java:jar:5.1.18</node>
-            <node x="978.5" y="1381.5833333333335">joda-time:joda-time:jar:2.2</node>
-            <node x="295.0" y="433.875">org.codehaus.jackson:jackson-mapper-lgpl:jar:1.9.13</node>
-            <node x="632.0" y="433.875">org.codehaus.jackson:jackson-mapper-lgpl:jar:1.9.13/org.codehaus.jackson:jackson-core-lgpl:jar:1.9.13</node>
-            <node x="337.5" y="1464.5">org.apache.httpcomponents:httpclient:jar:4.2.1</node>
-            <node x="665.5" y="1496.8333333333335">org.apache.httpcomponents:httpclient:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
-            <node x="1251.0" y="2644.4410329445827">org.apache.httpcomponents:httpclient:jar:4.2.1/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="634.5" y="1419.8333333333335">org.apache.httpcomponents:httpclient:jar:4.2.1/commons-codec:commons-codec:jar:1.6</node>
-            <node x="357.0" y="685.541666666667">redis.clients:jedis:jar:2.0.0</node>
-            <node x="640.0" y="685.541666666667">redis.clients:jedis:jar:2.0.0/commons-pool:commons-pool:jar:1.5.5</node>
-            <node x="351.5" y="3878.9884057791714">org.apache.hbase:hbase:jar:0.94.2</node>
-            <node x="650.5" y="4321.6818581780535">org.apache.hbase:hbase:jar:0.94.2/com.yammer.metrics:metrics-core:jar:2.1.2</node>
-            <node x="649.0" y="2657.0249615160114">org.apache.hbase:hbase:jar:0.94.2/commons-cli:commons-cli:jar:1.2</node>
-            <node x="605.5" y="2467.366032944583">org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6</node>
-            <node x="1240.0" y="3294.4547234028432">org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="958.0" y="2790.826151974272">org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-lang:commons-lang:jar:2.4</node>
-            <node x="944.0" y="2648.426151974272">org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8</node>
-            <node x="1245.5" y="2426.676151974272">org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
-            <node x="1251.0" y="2503.676151974272">org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
-            <node x="920.0" y="2725.426151974272">org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0</node>
-            <node x="646.5" y="3820.9884057791714">org.apache.hbase:hbase:jar:0.94.2/com.github.stephenc.high-scale-lib:high-scale-lib:jar:1.1.1</node>
-            <node x="634.5" y="4109.6818581780535">org.apache.hbase:hbase:jar:0.94.2/commons-codec:commons-codec:jar:1.4</node>
-            <node x="938.0" y="2494.426151974272">org.apache.hbase:hbase:jar:0.94.2/commons-httpclient:commons-httpclient:jar:3.1</node>
-            <node x="650.0" y="2734.0249615160114">org.apache.hbase:hbase:jar:0.94.2/commons-io:commons-io:jar:2.1</node>
-            <node x="640.5" y="4167.6818581780535">org.apache.hbase:hbase:jar:0.94.2/commons-lang:commons-lang:jar:2.5</node>
-            <node x="679.5" y="3743.9884057791714">org.apache.hbase:hbase:jar:0.94.2/log4j:log4j:jar:1.2.16</node>
-            <node x="999.0" y="4129.4318581780535">org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3</node>
-            <node x="1246.0" y="3871.199366259986">org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3/org.codehaus.jackson:jackson-mapper-asl:jar:1.7.3</node>
-            <node x="1275.5" y="3948.199366259986">org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3/org.xerial.snappy:snappy-java:jar:1.0.3.2</node>
-            <node x="667.0" y="3955.681858178054">org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3</node>
-            <node x="996.0" y="4013.9884057791714">org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.jboss.netty:netty:jar:3.2.4.Final</node>
-            <node x="987.0" y="3936.9884057791714">org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.apache.velocity:velocity:jar:1.7</node>
-            <node x="1263.5" y="4418.488405779171">org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.apache.velocity:velocity:jar:1.7/commons-lang:commons-lang:jar:2.5</node>
-            <node x="658.0" y="4475.6818581780535">org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3</node>
-            <node x="969.5" y="4495.488405779171">org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.6.1</node>
-            <node x="997.0" y="4332.803532926653">org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15</node>
-            <node x="996.0" y="4572.488405779171">org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3/org.jboss.netty:netty:jar:3.2.2.Final</node>
-            <node x="670.0" y="4885.863405779171">org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0</node>
-            <node x="979.0" y="4962.863405779171">org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0/org.apache.httpcomponents:httpclient:jar:4.1.2</node>
-            <node x="983.0" y="4885.863405779171">org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0/org.apache.httpcomponents:httpcore:jar:4.1.3</node>
-            <node x="640.0" y="4398.6818581780535">org.apache.hbase:hbase:jar:0.94.2/org.jruby:jruby-complete:jar:1.6.5</node>
-            <node x="999.0" y="3714.9884057791714">org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty:jar:6.1.26</node>
-            <node x="1289.0" y="3168.2731758017258">org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty-util:jar:6.1.26</node>
-            <node x="673.0" y="2321.9410329445827">org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-2.1:jar:6.1.14</node>
-            <node x="975.5" y="2571.426151974272">org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-api-2.1:jar:6.1.14</node>
-            <node x="1267.0" y="3073.0731758017255">org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:servlet-api-2.5:jar:6.1.14</node>
-            <node x="1259.0" y="4790.848524844721">org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-core-asl:jar:1.8.8</node>
-            <node x="940.5" y="4630.488405779171">org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8</node>
-            <node x="649.0" y="4654.863405779171">org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-jaxrs:jar:1.8.8</node>
-            <node x="658.0" y="4731.863405779171">org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-xc:jar:1.8.8</node>
-            <node x="652.0" y="5039.863405779171">org.apache.hbase:hbase:jar:0.94.2/org.slf4j:slf4j-log4j12:jar:1.4.3</node>
-            <node x="997.0" y="5039.863405779171">org.apache.hbase:hbase:jar:0.94.2/org.slf4j:slf4j-log4j12:jar:1.4.3/log4j:log4j:jar:1.2.13</node>
-            <node x="639.0" y="4032.681858178054">org.apache.hbase:hbase:jar:0.94.2/tomcat:jasper-compiler:jar:5.5.23</node>
-            <node x="642.0" y="2811.0249615160114">org.apache.hbase:hbase:jar:0.94.2/tomcat:jasper-runtime:jar:5.5.23</node>
-            <node x="640.5" y="3878.9884057791714">org.apache.hbase:hbase:jar:0.94.2/org.jamon:jamon-runtime:jar:2.3.1</node>
-            <node x="645.5" y="4244.6818581780535">org.apache.hbase:hbase:jar:0.94.2/com.google.protobuf:protobuf-java:jar:2.4.0a</node>
-            <node x="974.0" y="3329.826151974272">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-core:jar:1.8</node>
-            <node x="657.5" y="2888.0249615160114">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8</node>
-            <node x="987.5" y="3252.826151974272">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jettison:jettison:jar:1.1</node>
-            <node x="980.0" y="2867.826151974272">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1</node>
-            <node x="1290.5" y="2754.1410329445825">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1/javax.xml.bind:jaxb-api:jar:2.2.2</node>
-            <node x="953.5" y="2944.826151974272">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jackson:jackson-core-asl:jar:1.7.1</node>
-            <node x="940.5" y="3098.826151974272">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1</node>
-            <node x="966.5" y="3021.826151974272">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jackson:jackson-jaxrs:jar:1.7.1</node>
-            <node x="975.5" y="3175.826151974272">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jackson:jackson-xc:jar:1.7.1</node>
-            <node x="650.5" y="2970.6410329445825">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-server:jar:1.8</node>
-            <node x="1000.0" y="3581.177691493457">org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-server:jar:1.8/asm:asm:jar:3.1</node>
-            <node x="667.5" y="4808.863405779171">org.apache.hbase:hbase:jar:0.94.2/javax.xml.bind:jaxb-api:jar:2.1</node>
-            <node x="978.5" y="4808.863405779171">org.apache.hbase:hbase:jar:0.94.2/javax.xml.bind:jaxb-api:jar:2.1/javax.activation:activation:jar:1.1</node>
-            <node x="1291.0" y="3786.8303186588687">org.apache.hbase:hbase:jar:0.94.2/stax:stax-api:jar:1.0.1</node>
-            <node x="324.5" y="2131.026785696356">org.apache.hadoop:hadoop-core:jar:1.1.2</node>
-            <node x="671.0" y="1876.5416666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/xmlenc:xmlenc:jar:0.52</node>
-            <node x="620.5" y="1799.5416666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/commons-httpclient:commons-httpclient:jar:3.0.1</node>
-            <node x="634.5" y="2107.541666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/commons-codec:commons-codec:jar:1.6</node>
-            <node x="637.0" y="1953.5416666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/org.apache.commons:commons-math:jar:2.1</node>
-            <node x="644.5" y="1554.8333333333335">org.apache.hadoop:hadoop-core:jar:1.1.2/commons-net:commons-net:jar:1.4.1</node>
-            <node x="642.0" y="2165.541666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/tomcat:jasper-runtime:jar:5.5.12</node>
-            <node x="639.0" y="2242.541666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/tomcat:jasper-compiler:jar:5.5.12</node>
-            <node x="968.0" y="1779.7916666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/commons-el:commons-el:jar:1.0</node>
-            <node x="1251.0" y="1632.0397396743213">org.apache.hadoop:hadoop-core:jar:1.1.2/commons-el:commons-el:jar:1.0/commons-logging:commons-logging:jar:1.0.3</node>
-            <node x="677.5" y="1617.4583333333335">org.apache.hadoop:hadoop-core:jar:1.1.2/net.java.dev.jets3t:jets3t:jar:0.6.1</node>
-            <node x="952.0" y="1625.7916666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/net.java.dev.jets3t:jets3t:jar:0.6.1/commons-codec:commons-codec:jar:1.3</node>
-            <node x="672.5" y="2030.5416666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/hsqldb:hsqldb:jar:1.8.0.10</node>
-            <node x="1002.5" y="1564.0833333333335">org.apache.hadoop:hadoop-core:jar:1.1.2/oro:oro:jar:2.0.8</node>
-            <node x="999.0" y="1702.7916666666667">org.apache.hadoop:hadoop-core:jar:1.1.2/org.eclipse.jdt:core:jar:3.1.1</node>
-            <node x="353.5" y="3083.768400603188">org.jsoup:jsoup:jar:1.7.3</node>
-            <node x="342.5" y="5626.309485325535">io.netty:netty-all:jar:5.0.0.Alpha1</node>
-            <node x="970.5" y="5844.805072445838">org.apache.lucene:lucene-core:jar:4.4.0</node>
-            <node x="597.0" y="5797.605072445838">org.apache.lucene:lucene-analyzers-common:jar:4.4.0</node>
-            <node x="300.5" y="5884.605072445838">org.apache.lucene:lucene-queryparser:jar:4.4.0</node>
-            <node x="642.0" y="5855.605072445838">org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-queries:jar:4.4.0</node>
-            <node x="637.5" y="5929.2800724458375">org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-sandbox:jar:4.4.0</node>
-            <node x="960.0" y="5938.5300724458375">org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-sandbox:jar:4.4.0/jakarta-regexp:jakarta-regexp:jar:1.4</node>
-            <node x="1586.5" y="1101.8333333333335">org.sonatype.sisu.inject:cglib:jar:2.2.3</node>
-            <node x="1815.5" y="5271.928532926653">org.sonatype.sisu.inject:cglib:jar:2.2.3/asm:asm:jar:3.3.1</node>
-            <node x="292.5" y="5472.309485325535">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4</node>
-            <node x="651.5" y="5505.821739112505">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/xml-resolver:xml-resolver:jar:1.2</node>
-            <node x="1800.0" y="5490.663651992202">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4</node>
-            <node x="1984.0" y="5529.163651992202">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
-            <node x="2246.0" y="5529.163651992202">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
-            <node x="1992.0" y="5452.163651992202">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4/org.apache.ws.xmlschema:xmlschema-core:jar:2.2.1</node>
-            <node x="937.5" y="5593.988405779171">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4</node>
-            <node x="1563.5" y="5622.988405779171">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4</node>
-            <node x="1807.5" y="5754.115191511387">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4/wsdl4j:wsdl4j:jar:1.6.3</node>
-            <node x="1232.0" y="5550.488405779171">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4</node>
-            <node x="1569.0" y="5564.988405779171">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4/com.sun.xml.bind:jaxb-impl:jar:2.2.11</node>
-            <node x="1569.0" y="5506.988405779171">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4/com.sun.xml.bind:jaxb-core:jar:2.2.11</node>
-            <node x="1531.0" y="5429.988405779171">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-xml:jar:3.0.4</node>
-            <node x="612.5" y="5634.6550724458375">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.4</node>
-            <node x="616.0" y="5367.363405779171">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-transports-http:jar:3.0.4</node>
-            <node x="643.0" y="5711.6550724458375">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4</node>
-            <node x="956.0" y="5750.1550724458375">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.4</node>
-            <node x="1297.0" y="5750.1550724458375">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.4/org.apache.neethi:neethi:jar:3.0.3</node>
-            <node x="272.0" y="5190.723524844721">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4</node>
-            <node x="973.0" y="5116.863405779171">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411</node>
-            <node x="1252.5" y="5155.363405779171">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-continuation:jar:8.1.15.v20140411</node>
-            <node x="1285.0" y="5078.363405779171">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-http:jar:8.1.15.v20140411</node>
-            <node x="1577.5" y="5078.363405779171">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-http:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-io:jar:8.1.15.v20140411</node>
-            <node x="1799.0" y="4953.928532926653">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-http:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-io:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-util:jar:8.1.15.v20140411</node>
-            <node x="649.0" y="5131.363405779171">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-security:jar:8.1.15.v20140411</node>
-            <node x="668.0" y="5290.363405779171">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.slf4j:slf4j-api:jar:1.7.9</node>
-            <node x="598.0" y="5213.363405779171">org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0</node>
-            <node x="343.5" y="5549.309485325535">org.javassist:javassist:jar:3.20.0-GA</node>
-            <node x="340.0" y="22.589285696355546">org.msgpack:msgpack:jar:0.6.6</node>
-            <node x="654.5" y="0.0">org.msgpack:msgpack:jar:0.6.6/com.googlecode.json-simple:json-simple:jar:1.1.1</node>
-            <node x="998.5" y="0.0">org.msgpack:msgpack:jar:0.6.6/com.googlecode.json-simple:json-simple:jar:1.1.1/junit:junit:jar:4.10</node>
-            <node x="667.5" y="77.0">org.msgpack:msgpack:jar:0.6.6/org.javassist:javassist:jar:3.16.1-GA</node>
-            <node x="321.5" y="4435.825516854817">com.google.protobuf:protobuf-java:jar:2.6.0</node>
-            <node x="631.5" y="771.791666666667">org.jboss.marshalling:jboss-marshalling:jar:1.3.0.CR9</node>
-            <node x="284.5" y="762.541666666667">org.jboss.marshalling:jboss-marshalling-serial:jar:1.3.0.CR9</node>
-            <node x="340.5" y="1210.276785696356">org.jibx:jibx-bind:jar:1.2.6</node>
-            <node x="668.5" y="1284.8333333333335">org.jibx:jibx-bind:jar:1.2.6/org.jibx:jibx-run:jar:1.2.6</node>
-            <node x="997.0" y="1275.5833333333335">org.jibx:jibx-bind:jar:1.2.6/org.jibx:jibx-run:jar:1.2.6/xpp3:xpp3:jar:1.1.3.4.O</node>
-            <node x="682.5" y="1130.8333333333335">org.jibx:jibx-bind:jar:1.2.6/bcel:bcel:jar:5.1</node>
-            <node x="989.5" y="1130.8333333333335">org.jibx:jibx-bind:jar:1.2.6/bcel:bcel:jar:5.1/regexp:regexp:jar:1.2</node>
-            <node x="679.0" y="1207.8333333333335">org.jibx:jibx-bind:jar:1.2.6/com.thoughtworks.qdox:qdox:jar:1.12.1</node>
-            <node x="346.0" y="4512.825516854817">com.caucho:hessian:jar:4.0.7</node>
-            <node x="318.5" y="231.0">org.springframework:spring-context:jar:4.2.2.RELEASE</node>
-            <node x="656.5" y="269.875">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
-            <node x="972.5" y="298.875">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="966.0" y="240.875">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
-            <node x="1277.5" y="249.08928569635555">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
-            <node x="1534.5" y="249.08928569635555">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="948.5" y="375.875">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-expression:jar:4.2.2.RELEASE</node>
-            <node x="316.5" y="825.166666666667">org.apache.curator:curator-recipes:jar:2.7.0</node>
-            <node x="625.5" y="910.5">org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0</node>
-            <node x="964.0" y="995.8333333333335">org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0</node>
-            <node x="1291.0" y="995.8333333333335">org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0/org.slf4j:slf4j-api:jar:1.7.6</node>
-            <node x="1281.0" y="1072.8333333333335">org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
-            <node x="975.5" y="918.8333333333335">org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.zookeeper:zookeeper:jar:3.4.3</node>
-            <node x="658.0" y="833.5">org.apache.curator:curator-recipes:jar:2.7.0/org.apache.zookeeper:zookeeper:jar:3.4.3</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.jruby:jruby-complete:jar:1.6.5">
-              <point x="43.0" y="9.514285714285506" />
-              <point x="517.0" y="3907.002691493457" />
-              <point x="597.0" y="4417.1818581780535" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-http:jar:8.1.15.v20140411">
-              <point x="63.0" y="-9.25" />
-              <point x="1152.0" y="5126.113405779171" />
-              <point x="1232.0" y="5096.863405779171" />
-              <point x="-56.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0/org.apache.httpcomponents:httpclient:jar:4.1.2">
-              <point x="48.5" y="12.33333333333303" />
-              <point x="840.0" y="4916.6967391125045" />
-              <point x="920.0" y="4981.363405779171" />
-              <point x="-57.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.hadoop:hadoop-core:jar:1.1.2">
-              <point x="96.0" y="3.5806451612902492" />
-              <point x="272.0" y="2149.526785696356" />
-              <point x="-70.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-jaxrs:jar:1.8.8">
-              <point x="43.0" y="13.742857142857247" />
-              <point x="517.0" y="3911.2312629220287" />
-              <point x="597.0" y="4673.363405779171" />
-              <point x="-69.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4/com.sun.xml.bind:jaxb-core:jar:2.2.11">
-              <point x="109.5" y="-13.875" />
-              <point x="1531.0" y="5525.488405779171" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0">
-              <point x="113.0" y="-7.400000000000091" />
-              <point x="-116.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="62.0" y="12.333333333333314" />
-              <point x="840.0" y="300.7083333333335" />
-              <point x="920.0" y="317.375" />
-              <point x="-63.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-codec:commons-codec:jar:1.4">
-              <point x="43.0" y="4.228571428571286" />
-              <point x="517.0" y="3901.716977207743" />
-              <point x="597.0" y="4128.1818581780535" />
-              <point x="-84.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.4">
-              <point x="75.5" y="12.33333333333303" />
-              <point x="840.0" y="5742.488405779171" />
-              <point x="920.0" y="5768.6550724458375" />
-              <point x="-80.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty-util:jar:6.1.26">
-              <point x="70.0" y="-1.6086956521739921" />
-              <point x="517.0" y="2147.918090044182" />
-              <point x="597.0" y="2155.041666666667" />
-              <point x="1152.0" y="2155.041666666667" />
-              <point x="1232.0" y="3174.4398424683923" />
-              <point x="-52.5" y="-12.333333333333485" />
-            </edge>
-            <edge source="org.jibx:jibx-bind:jar:1.2.6/org.jibx:jibx-run:jar:1.2.6" target="joda-time:joda-time:jar:2.2">
-              <point x="50.0" y="9.25" />
-              <point x="840.0" y="1312.5833333333335" />
-              <point x="920.0" y="1390.8333333333335" />
-              <point x="-57.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-sandbox:jar:4.4.0" target="org.apache.lucene:lucene-core:jar:4.4.0">
-              <point x="81.0" y="-9.25" />
-              <point x="840.0" y="5938.5300724458375" />
-              <point x="920.0" y="5878.105072445838" />
-              <point x="-65.5" y="14.800000000000182" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="com.google.guava:guava:jar:19.0">
-              <point x="43.0" y="-7.400000000000091" />
-              <point x="517.0" y="3890.088405779172" />
-              <point x="597.0" y="3628.677691493457" />
-              <point x="1152.0" y="3628.677691493457" />
-              <point x="1232.0" y="770.1314063409882" />
-              <point x="-43.5" y="14.800000000000182" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.jboss.netty:netty:jar:3.2.4.Final">
-              <point x="51.5" y="4.625" />
-              <point x="840.0" y="3978.806858178054" />
-              <point x="920.0" y="4032.4884057791714" />
-              <point x="-40.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3">
-              <point x="43.0" y="2.11428571428587" />
-              <point x="517.0" y="3899.6026914934573" />
-              <point x="597.0" y="3974.181858178054" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-core:jar:1.8">
-              <point x="43.0" y="-8.457142857143026" />
-              <point x="517.0" y="3889.031262922029" />
-              <point x="597.0" y="3407.735080545701" />
-              <point x="840.0" y="3407.735080545701" />
-              <point x="920.0" y="3362.201151974272" />
-              <point x="-62.0" y="13.875" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4">
-              <point x="91.0" y="-0.0" />
-              <point x="-55.0" y="-0.0" />
-            </edge>
-            <edge source="org.jboss.marshalling:jboss-marshalling-serial:jar:1.3.0.CR9" target="org.jboss.marshalling:jboss-marshalling:jar:1.3.0.CR9">
-              <point x="110.0" y="-0.0" />
-              <point x="-87.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0" target="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.zookeeper:zookeeper:jar:3.4.3">
-              <point x="78.0" y="-0.0" />
-              <point x="517.0" y="843.666666666667" />
-              <point x="597.0" y="852.0" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.jibx:jibx-bind:jar:1.2.6/bcel:bcel:jar:5.1" target="org.jibx:jibx-bind:jar:1.2.6/bcel:bcel:jar:5.1/regexp:regexp:jar:1.2">
-              <point x="36.0" y="-0.0" />
-              <point x="-46.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-              <point x="96.0" y="-16.709677419354875" />
-              <point x="272.0" y="172.5" />
-              <point x="-37.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2/net.java.dev.jets3t:jets3t:jar:0.6.1" target="org.apache.hbase:hbase:jar:0.94.2/commons-httpclient:commons-httpclient:jar:3.1">
-              <point x="41.0" y="12.333333333333258" />
-              <point x="840.0" y="1648.2916666666667" />
-              <point x="920.0" y="2503.676151974272" />
-              <point x="-98.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0" target="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0/org.apache.zookeeper:zookeeper:jar:3.4.6">
-              <point x="72.0" y="12.333333333333258" />
-              <point x="1152.0" y="1026.666666666667" />
-              <point x="1232.0" y="1091.3333333333335" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="122.5" y="-3.08333333333303" />
-              <point x="597.0" y="5202.863405779171" />
-              <point x="1719.0" y="5202.863405779171" />
-              <point x="-51.5" y="-16.649999999999636" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-core-asl:jar:1.8.8">
-              <point x="95.5" y="-0.0" />
-              <point x="1152.0" y="4648.988405779171" />
-              <point x="1232.0" y="4804.723524844721" />
-              <point x="-82.5" y="-4.625" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/com.yammer.metrics:metrics-core:jar:2.1.2">
-              <point x="43.0" y="8.457142857143026" />
-              <point x="517.0" y="3905.945548636315" />
-              <point x="597.0" y="4340.1818581780535" />
-              <point x="-68.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-http:jar:8.1.15.v20140411" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-http:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-io:jar:8.1.15.v20140411">
-              <point x="56.5" y="-0.0" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.6.1">
-              <point x="60.5" y="-0.0" />
-              <point x="840.0" y="4494.1818581780535" />
-              <point x="920.0" y="4513.988405779171" />
-              <point x="-66.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2/commons-el:commons-el:jar:1.0" target="org.apache.hadoop:hadoop-core:jar:1.1.2/commons-el:commons-el:jar:1.0/commons-logging:commons-logging:jar:1.0.3">
-              <point x="68.0" y="-0.0" />
-              <point x="1152.0" y="1798.2916666666667" />
-              <point x="1232.0" y="1650.5397396743213" />
-              <point x="-90.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.apache.velocity:velocity:jar:1.7" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-collections:commons-collections:jar:3.2.1">
-              <point x="49.0" y="-9.25" />
-              <point x="1152.0" y="3946.2384057791714" />
-              <point x="-101.5" y="9.25" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/org.eclipse.jdt:core:jar:3.1.1">
-              <point x="70.0" y="-12.869565217391482" />
-              <point x="517.0" y="2136.6572204789645" />
-              <point x="597.0" y="1712.0416666666667" />
-              <point x="-37.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-cli:commons-cli:jar:1.2">
-              <point x="70.0" y="12.869565217391482" />
-              <point x="517.0" y="2162.3963509137475" />
-              <point x="597.0" y="2666.2749615160114" />
-              <point x="-69.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-security:jar:8.1.15.v20140411">
-              <point x="122.5" y="-9.25" />
-              <point x="597.0" y="5149.863405779171" />
-              <point x="-69.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE">
-              <point x="62.0" y="-12.333333333333314" />
-              <point x="840.0" y="276.0416666666665" />
-              <point x="920.0" y="268.625" />
-              <point x="-70.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3/org.xerial.snappy:snappy-java:jar:1.0.3.2">
-              <point x="37.0" y="9.25" />
-              <point x="1152.0" y="4157.1818581780535" />
-              <point x="1232.0" y="3966.699366259986" />
-              <point x="-66.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.jboss.marshalling:jboss-marshalling-serial:jar:1.3.0.CR9">
-              <point x="96.0" y="-5.9677419354839" />
-              <point x="272.0" y="781.041666666667" />
-              <point x="-110.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-transports-http:jar:3.0.4">
-              <point x="122.5" y="15.41666666666697" />
-              <point x="597.0" y="5376.613405779171" />
-              <point x="-102.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-core:jar:1.8">
-              <point x="70.0" y="4.826086956521976" />
-              <point x="517.0" y="2154.352872652878" />
-              <point x="597.0" y="2308.223641640235" />
-              <point x="840.0" y="2308.223641640235" />
-              <point x="920.0" y="3334.451151974272" />
-              <point x="-62.0" y="-13.875" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4">
-              <point x="109.5" y="13.875" />
-              <point x="1531.0" y="5629.155072445838" />
-              <point x="-61.5" y="-12.33333333333303" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-xml:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="94.0" y="-0.0" />
-              <point x="-51.5" y="-5.550000000000182" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-io:commons-io:jar:2.1">
-              <point x="43.0" y="-14.800000000000182" />
-              <point x="517.0" y="3882.6884057791713" />
-              <point x="597.0" y="2761.7749615160114" />
-              <point x="-68.5" y="9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411">
-              <point x="122.5" y="-15.41666666666697" />
-              <point x="597.0" y="5120.863405779171" />
-              <point x="840.0" y="5120.863405779171" />
-              <point x="920.0" y="5126.113405779171" />
-              <point x="-63.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/commons-net:commons-net:jar:1.4.1">
-              <point x="70.0" y="-17.695652173913004" />
-              <point x="517.0" y="2131.831133522443" />
-              <point x="597.0" y="1573.3333333333335" />
-              <point x="-74.0" y="-0.0" />
-            </edge>
-            <edge source="org.jibx:jibx-bind:jar:1.2.6" target="org.jibx:jibx-bind:jar:1.2.6/org.jibx:jibx-run:jar:1.2.6">
-              <point x="54.0" y="4.625" />
-              <point x="517.0" y="1233.401785696356" />
-              <point x="597.0" y="1303.3333333333335" />
-              <point x="-50.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE">
-              <point x="76.0" y="-4.625" />
-              <point x="517.0" y="244.875" />
-              <point x="597.0" y="250.125" />
-              <point x="-70.0" y="-9.25" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="com.google.protobuf:protobuf-java:jar:2.6.0">
-              <point x="96.0" y="7.161290322580726" />
-              <point x="272.0" y="4454.325516854817" />
-              <point x="-73.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2/net.java.dev.jets3t:jets3t:jar:0.6.1" target="org.apache.hadoop:hadoop-core:jar:1.1.2/net.java.dev.jets3t:jets3t:jar:0.6.1/commons-codec:commons-codec:jar:1.3">
-              <point x="41.0" y="-0.0" />
-              <point x="840.0" y="1635.9583333333335" />
-              <point x="920.0" y="1644.2916666666667" />
-              <point x="-84.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.jamon:jamon-runtime:jar:2.3.1">
-              <point x="43.0" y="-0.0" />
-              <point x="-78.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE">
-              <point x="76.0" y="4.625" />
-              <point x="517.0" y="254.125" />
-              <point x="597.0" y="288.375" />
-              <point x="-62.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0">
-              <point x="92.0" y="-9.25" />
-              <point x="1152.0" y="2657.676151974272" />
-              <point x="1232.0" y="2445.176151974272" />
-              <point x="-96.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/com.github.stephenc.high-scale-lib:high-scale-lib:jar:1.1.1">
-              <point x="43.0" y="-2.11428571428587" />
-              <point x="517.0" y="3895.3741200648856" />
-              <point x="597.0" y="3839.4884057791714" />
-              <point x="-72.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-server:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-core:jar:1.8">
-              <point x="68.0" y="-9.25" />
-              <point x="840.0" y="2979.8910329445825" />
-              <point x="920.0" y="3352.951151974272" />
-              <point x="-62.0" y="4.625" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.18">
-              <point x="96.0" y="10.741935483870975" />
-              <point x="272.0" y="5341.299068658869" />
-              <point x="-103.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/xmlenc:xmlenc:jar:0.52">
-              <point x="70.0" y="-8.043478260869506" />
-              <point x="517.0" y="2141.4833074354865" />
-              <point x="597.0" y="1895.0416666666667" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/oro:oro:jar:2.0.8">
-              <point x="70.0" y="-16.086956521739012" />
-              <point x="517.0" y="2133.439829174617" />
-              <point x="597.0" y="1602.3333333333335" />
-              <point x="840.0" y="1602.3333333333335" />
-              <point x="920.0" y="1591.8333333333335" />
-              <point x="-33.5" y="9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.apache.velocity:velocity:jar:1.7">
-              <point x="51.5" y="-4.625" />
-              <point x="840.0" y="3969.556858178054" />
-              <point x="920.0" y="3955.4884057791714" />
-              <point x="-49.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-api-2.1:jar:6.1.14">
-              <point x="43.0" y="-9.514285714285506" />
-              <point x="517.0" y="3887.974120064886" />
-              <point x="597.0" y="3027.235675783796" />
-              <point x="840.0" y="3027.235675783796" />
-              <point x="920.0" y="2602.2594853076052" />
-              <point x="-60.5" y="12.333333333333485" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0/org.apache.httpcomponents:httpcore:jar:4.1.3">
-              <point x="48.5" y="-0.0" />
-              <point x="-53.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.hbase:hbase:jar:0.94.2">
-              <point x="96.0" y="5.9677419354839" />
-              <point x="272.0" y="3897.4884057791714" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6" target="org.apache.httpcomponents:httpclient:jar:4.2.1/commons-logging:commons-logging:jar:1.1.1">
-              <point x="113.0" y="-0.0" />
-              <point x="920.0" y="2772.926151974272" />
-              <point x="1152.0" y="2772.926151974272" />
-              <point x="1232.0" y="2670.341032944583" />
-              <point x="-90.5" y="7.400000000000091" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3/org.codehaus.jackson:jackson-mapper-asl:jar:1.7.3">
-              <point x="37.0" y="-9.25" />
-              <point x="1152.0" y="4138.6818581780535" />
-              <point x="1232.0" y="3889.699366259986" />
-              <point x="-95.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0" target="com.google.guava:guava:jar:19.0">
-              <point x="72.0" y="-12.333333333333371" />
-              <point x="1152.0" y="1002.0" />
-              <point x="1232.0" y="762.7314063409881" />
-              <point x="-43.5" y="7.399999999999977" />
-            </edge>
-            <edge source="org.jibx:jibx-bind:jar:1.2.6" target="org.jibx:jibx-bind:jar:1.2.6/bcel:bcel:jar:5.1">
-              <point x="54.0" y="-13.875" />
-              <point x="517.0" y="1214.901785696356" />
-              <point x="597.0" y="1149.3333333333335" />
-              <point x="-36.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-2.1:jar:6.1.14" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-api-2.1:jar:6.1.14">
-              <point x="45.5" y="9.25" />
-              <point x="840.0" y="2349.6910329445827" />
-              <point x="920.0" y="2589.926151974272" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4/org.apache.ws.xmlschema:xmlschema-core:jar:2.2.1">
-              <point x="51.5" y="-9.25" />
-              <point x="-83.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4" target="org.sonatype.sisu.inject:cglib:jar:2.2.3/asm:asm:jar:3.3.1">
-              <point x="102.0" y="-11.5625" />
-              <point x="517.0" y="5479.246985325535" />
-              <point x="597.0" y="5414.863405779171" />
-              <point x="1719.0" y="5414.863405779171" />
-              <point x="1799.0" y="5290.428532926653" />
-              <point x="-36.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-collections:commons-collections:jar:3.2.1">
-              <point x="113.0" y="7.400000000000091" />
-              <point x="920.0" y="2780.326151974272" />
-              <point x="1152.0" y="2780.326151974272" />
-              <point x="-101.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="106.0" y="12.33333333333303" />
-              <point x="840.0" y="5665.488405779171" />
-              <point x="920.0" y="5698.805072445838" />
-              <point x="1719.0" y="5698.805072445838" />
-              <point x="-51.5" y="9.25" />
-            </edge>
-            <edge source="org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-queries:jar:4.4.0" target="org.apache.lucene:lucene-core:jar:4.4.0">
-              <point x="76.5" y="-0.0" />
-              <point x="840.0" y="5874.105072445838" />
-              <point x="920.0" y="5863.305072445838" />
-              <point x="-65.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.javassist:javassist:jar:3.20.0-GA">
-              <point x="96.0" y="13.129032258064626" />
-              <point x="272.0" y="5567.809485325535" />
-              <point x="-51.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4">
-              <point x="106.0" y="-0.0" />
-              <point x="-61.5" y="12.33333333333303" />
-            </edge>
-            <edge source="org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-sandbox:jar:4.4.0" target="org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-sandbox:jar:4.4.0/jakarta-regexp:jakarta-regexp:jar:1.4">
-              <point x="81.0" y="9.25" />
-              <point x="-76.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0">
-              <point x="43.0" y="16.914285714285597" />
-              <point x="517.0" y="3914.4026914934575" />
-              <point x="597.0" y="4904.363405779171" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-jaxrs:jar:1.8.8" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8">
-              <point x="69.5" y="-9.25" />
-              <point x="840.0" y="4664.113405779171" />
-              <point x="920.0" y="4653.613405779171" />
-              <point x="-95.5" y="4.625" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-server:jar:1.8">
-              <point x="43.0" y="-11.628571428571377" />
-              <point x="517.0" y="3885.8598343506" />
-              <point x="597.0" y="2998.3910329445825" />
-              <point x="-68.0" y="9.25" />
-            </edge>
-            <edge source="org.msgpack:msgpack:jar:0.6.6/com.googlecode.json-simple:json-simple:jar:1.1.1" target="org.msgpack:msgpack:jar:0.6.6/com.googlecode.json-simple:json-simple:jar:1.1.1/junit:junit:jar:4.10">
-              <point x="64.0" y="-0.0" />
-              <point x="-37.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="96.0" y="-10.741935483870975" />
-              <point x="272.0" y="558.375" />
-              <point x="517.0" y="558.375" />
-              <point x="597.0" y="550.041666666667" />
-              <point x="-50.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty:jar:6.1.26" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty-util:jar:6.1.26">
-              <point x="37.0" y="-0.0" />
-              <point x="1152.0" y="3733.4884057791714" />
-              <point x="1232.0" y="3186.7731758017258" />
-              <point x="-52.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE/commons-logging:commons-logging:jar:1.2">
-              <point x="64.0" y="-0.0" />
-              <point x="-90.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-2.1:jar:6.1.14">
-              <point x="70.0" y="9.652173913043498" />
-              <point x="517.0" y="2159.1789596093995" />
-              <point x="597.0" y="2331.1910329445827" />
-              <point x="-45.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jettison:jettison:jar:1.1" target="org.apache.hbase:hbase:jar:0.94.2/stax:stax-api:jar:1.0.1">
-              <point x="48.5" y="-0.0" />
-              <point x="1152.0" y="3271.326151974272" />
-              <point x="1232.0" y="3796.0803186588687" />
-              <point x="-50.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-2.1:jar:6.1.14">
-              <point x="43.0" y="-17.971428571428532" />
-              <point x="517.0" y="3879.5169772077434" />
-              <point x="597.0" y="2349.6910329445827" />
-              <point x="-45.5" y="9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.httpcomponents:httpclient:jar:4.2.1/commons-logging:commons-logging:jar:1.1.1">
-              <point x="43.0" y="-6.342857142857156" />
-              <point x="517.0" y="3891.1455486363147" />
-              <point x="597.0" y="3629.7348343506" />
-              <point x="1152.0" y="3629.7348343506" />
-              <point x="1232.0" y="2677.741032944583" />
-              <point x="-90.5" y="14.800000000000182" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/org.apache.commons:commons-math:jar:2.1">
-              <point x="70.0" y="-6.434782608695514" />
-              <point x="517.0" y="2143.0920030876605" />
-              <point x="597.0" y="1972.0416666666667" />
-              <point x="-81.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jackson:jackson-jaxrs:jar:1.7.1">
-              <point x="61.0" y="-5.285714285714221" />
-              <point x="840.0" y="2901.239247230297" />
-              <point x="920.0" y="3040.326151974272" />
-              <point x="-69.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty:jar:6.1.26">
-              <point x="70.0" y="6.434782608695514" />
-              <point x="517.0" y="2155.9615683050515" />
-              <point x="597.0" y="2309.8323372924087" />
-              <point x="840.0" y="2309.8323372924087" />
-              <point x="920.0" y="3721.1550724458384" />
-              <point x="-37.0" y="-12.333333333333485" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.slf4j:slf4j-log4j12:jar:1.4.3">
-              <point x="43.0" y="17.971428571428532" />
-              <point x="517.0" y="3915.4598343506004" />
-              <point x="597.0" y="5058.363405779171" />
-              <point x="-66.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-server:jar:1.8">
-              <point x="70.0" y="17.695652173913004" />
-              <point x="517.0" y="2167.222437870269" />
-              <point x="597.0" y="2979.8910329445825" />
-              <point x="-68.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="102.0" y="-6.9375" />
-              <point x="517.0" y="5483.871985325535" />
-              <point x="597.0" y="5419.488405779171" />
-              <point x="1719.0" y="5419.488405779171" />
-              <point x="-51.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0" target="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0/org.slf4j:slf4j-api:jar:1.7.6">
-              <point x="72.0" y="-0.0" />
-              <point x="-50.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.2.2.RELEASE">
-              <point x="96.0" y="-15.51612903225805" />
-              <point x="272.0" y="249.5" />
-              <point x="-76.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4/wsdl4j:wsdl4j:jar:1.6.3">
-              <point x="80.0" y="12.33333333333303" />
-              <point x="1152.0" y="5780.988405779171" />
-              <point x="1232.0" y="5797.6550724458375" />
-              <point x="1719.0" y="5797.6550724458375" />
-              <point x="-44.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jackson:jackson-core-asl:jar:1.7.1">
-              <point x="61.0" y="-10.571428571428442" />
-              <point x="840.0" y="2895.953532944583" />
-              <point x="920.0" y="2963.326151974272" />
-              <point x="-82.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4">
-              <point x="96.0" y="11.9354838709678" />
-              <point x="272.0" y="5490.809485325535" />
-              <point x="-102.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.4/org.apache.neethi:neethi:jar:3.0.3">
-              <point x="80.0" y="-0.0" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty-util:jar:6.1.26">
-              <point x="43.0" y="-1.057142857142935" />
-              <point x="517.0" y="3896.4312629220285" />
-              <point x="597.0" y="3868.4884057791714" />
-              <point x="1152.0" y="3868.4884057791714" />
-              <point x="1232.0" y="3199.1065091350592" />
-              <point x="-52.5" y="12.333333333333485" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0" target="org.apache.httpcomponents:httpclient:jar:4.2.1/commons-logging:commons-logging:jar:1.1.1">
-              <point x="116.0" y="-0.0" />
-              <point x="1232.0" y="2662.9410329445827" />
-              <point x="-90.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/hsqldb:hsqldb:jar:1.8.0.10">
-              <point x="70.0" y="-4.826086956521522" />
-              <point x="517.0" y="2144.7006987398345" />
-              <point x="597.0" y="2049.041666666667" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-xc:jar:1.8.8" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-core-asl:jar:1.8.8">
-              <point x="60.5" y="9.25" />
-              <point x="1152.0" y="4759.613405779171" />
-              <point x="1232.0" y="4823.223524844721" />
-              <point x="-82.5" y="13.875" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/commons-httpclient:commons-httpclient:jar:3.0.1">
-              <point x="70.0" y="-9.652173913043498" />
-              <point x="517.0" y="2139.8746117833125" />
-              <point x="597.0" y="1818.0416666666667" />
-              <point x="-98.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.lucene:lucene-queryparser:jar:4.4.0" target="org.apache.lucene:lucene-core:jar:4.4.0">
-              <point x="94.0" y="-0.0" />
-              <point x="840.0" y="5903.105072445838" />
-              <point x="920.0" y="5870.705072445838" />
-              <point x="-65.5" y="7.399999999999636" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1">
-              <point x="92.0" y="9.25" />
-              <point x="1152.0" y="2676.176151974272" />
-              <point x="1232.0" y="2522.176151974272" />
-              <point x="-90.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8">
-              <point x="70.0" y="16.086956521739012" />
-              <point x="517.0" y="2165.613742218095" />
-              <point x="597.0" y="2897.2749615160114" />
-              <point x="-61.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/xml-resolver:xml-resolver:jar:1.2">
-              <point x="102.0" y="2.3125" />
-              <point x="517.0" y="5493.121985325535" />
-              <point x="597.0" y="5524.321739112505" />
-              <point x="-67.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.2.3">
-              <point x="96.0" y="-9.54838709677415" />
-              <point x="272.0" y="608.541666666667" />
-              <point x="-77.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.lucene:lucene-analyzers-common:jar:4.4.0" target="org.apache.lucene:lucene-core:jar:4.4.0">
-              <point x="121.5" y="-0.0" />
-              <point x="920.0" y="5848.505072445838" />
-              <point x="-65.5" y="-14.800000000000182" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.lucene:lucene-analyzers-common:jar:4.4.0">
-              <point x="96.0" y="15.51612903225805" />
-              <point x="272.0" y="5816.105072445838" />
-              <point x="-121.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:servlet-api-2.5:jar:6.1.14">
-              <point x="43.0" y="-5.285714285714221" />
-              <point x="517.0" y="3892.2026914934577" />
-              <point x="597.0" y="3699.181858178054" />
-              <point x="1152.0" y="3699.181858178054" />
-              <point x="1232.0" y="3100.8231758017255" />
-              <point x="-74.5" y="9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6">
-              <point x="43.0" y="-16.914285714285597" />
-              <point x="517.0" y="3880.5741200648863" />
-              <point x="-113.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0" target="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.curator:curator-client:jar:2.7.0">
-              <point x="93.0" y="12.333333333333371" />
-              <point x="840.0" y="941.3333333333335" />
-              <point x="920.0" y="1014.3333333333335" />
-              <point x="-72.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/tomcat:jasper-compiler:jar:5.5.12">
-              <point x="70.0" y="1.6086956521739921" />
-              <point x="517.0" y="2151.13548134853" />
-              <point x="597.0" y="2261.041666666667" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4">
-              <point x="102.0" y="16.1875" />
-              <point x="517.0" y="5506.996985325535" />
-              <point x="597.0" y="5730.1550724458375" />
-              <point x="-75.5" y="-0.0" />
-            </edge>
-            <edge source="ch.qos.logback:logback-classic:jar:1.2.3" target="ch.qos.logback:logback-core:jar:1.2.3">
-              <point x="77.5" y="9.25" />
-              <point x="-70.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/tomcat:jasper-compiler:jar:5.5.23">
-              <point x="43.0" y="3.1714285714283506" />
-              <point x="517.0" y="3900.6598343506002" />
-              <point x="597.0" y="4051.181858178054" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-httpclient:commons-httpclient:jar:3.1">
-              <point x="43.0" y="-10.571428571428442" />
-              <point x="517.0" y="3886.916977207743" />
-              <point x="597.0" y="3021.1803186588686" />
-              <point x="840.0" y="3021.1803186588686" />
-              <point x="920.0" y="2522.176151974272" />
-              <point x="-98.0" y="9.25" />
-            </edge>
-            <edge source="org.codehaus.jackson:jackson-mapper-lgpl:jar:1.9.13" target="org.codehaus.jackson:jackson-mapper-lgpl:jar:1.9.13/org.codehaus.jackson:jackson-core-lgpl:jar:1.9.13">
-              <point x="99.5" y="-0.0" />
-              <point x="-86.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8">
-              <point x="43.0" y="12.685714285714312" />
-              <point x="517.0" y="3910.1741200648858" />
-              <point x="597.0" y="4644.363405779171" />
-              <point x="-95.5" y="-4.625" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3">
-              <point x="43.0" y="5.285714285714221" />
-              <point x="517.0" y="3902.774120064886" />
-              <point x="597.0" y="4157.1818581780535" />
-              <point x="-37.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-http:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-io:jar:8.1.15.v20140411" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-http:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-io:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-util:jar:8.1.15.v20140411">
-              <point x="47.5" y="-0.0" />
-              <point x="1719.0" y="5096.863405779171" />
-              <point x="-52.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-lang:commons-lang:jar:2.5">
-              <point x="43.0" y="6.342857142857156" />
-              <point x="517.0" y="3903.831262922029" />
-              <point x="597.0" y="4186.1818581780535" />
-              <point x="-78.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0" target="com.google.guava:guava:jar:19.0">
-              <point x="78.0" y="-12.333333333333485" />
-              <point x="517.0" y="831.3333333333335" />
-              <point x="597.0" y="823.0" />
-              <point x="1152.0" y="823.0" />
-              <point x="1232.0" y="747.9314063409879" />
-              <point x="-43.5" y="-7.400000000000091" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE">
-              <point x="76.0" y="-13.875" />
-              <point x="517.0" y="235.625" />
-              <point x="597.0" y="218.5625" />
-              <point x="1152.0" y="218.5625" />
-              <point x="1232.0" y="253.71428569635555" />
-              <point x="-64.0" y="-13.875" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty:jar:6.1.26">
-              <point x="51.5" y="-13.875" />
-              <point x="840.0" y="3960.306858178054" />
-              <point x="920.0" y="3745.8217391125054" />
-              <point x="-37.0" y="12.333333333333485" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/com.google.protobuf:protobuf-java:jar:2.4.0a">
-              <point x="43.0" y="7.400000000000091" />
-              <point x="517.0" y="3904.888405779172" />
-              <point x="597.0" y="4263.1818581780535" />
-              <point x="-73.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE">
-              <point x="62.0" y="-0.0" />
-              <point x="1152.0" y="288.375" />
-              <point x="1232.0" y="272.21428569635555" />
-              <point x="-64.0" y="4.625" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0">
-              <point x="122.5" y="3.08333333333303" />
-              <point x="-120.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/commons-codec:commons-codec:jar:1.6">
-              <point x="70.0" y="-3.2173913043479843" />
-              <point x="517.0" y="2146.309394392008" />
-              <point x="597.0" y="2126.041666666667" />
-              <point x="-84.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4">
-              <point x="98.5" y="-12.33333333333303" />
-              <point x="1152.0" y="5600.155072445838" />
-              <point x="-109.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="80.0" y="-12.33333333333303" />
-              <point x="1152.0" y="5756.321739112505" />
-              <point x="1232.0" y="5733.855072445838" />
-              <point x="1719.0" y="5733.855072445838" />
-              <point x="-51.5" y="16.649999999999636" />
-            </edge>
-            <edge source="org.slf4j:jcl-over-slf4j:jar:1.7.25" target="org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="67.0" y="-0.0" />
-              <point x="517.0" y="529.375" />
-              <point x="597.0" y="537.7083333333335" />
-              <point x="-50.5" y="-12.333333333333371" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.thrift:libthrift:jar:0.8.0" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.apache.velocity:velocity:jar:1.7/commons-lang:commons-lang:jar:2.5">
-              <point x="48.5" y="-12.33333333333303" />
-              <point x="840.0" y="4892.030072445838" />
-              <point x="920.0" y="4865.863405779171" />
-              <point x="1152.0" y="4865.863405779171" />
-              <point x="1232.0" y="4446.238405779171" />
-              <point x="-78.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-2.1:jar:6.1.14" target="org.apache.hadoop:hadoop-core:jar:1.1.2/org.eclipse.jdt:core:jar:3.1.1">
-              <point x="45.5" y="-9.25" />
-              <point x="840.0" y="2331.1910329445827" />
-              <point x="920.0" y="1730.5416666666667" />
-              <point x="-37.0" y="9.25" />
-            </edge>
-            <edge source="ch.qos.logback:logback-classic:jar:1.2.3" target="org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="77.5" y="-9.25" />
-              <point x="517.0" y="599.291666666667" />
-              <point x="597.0" y="562.3750000000005" />
-              <point x="-50.5" y="12.333333333333371" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.lucene:lucene-core:jar:4.4.0">
-              <point x="96.0" y="16.709677419354875" />
-              <point x="272.0" y="5845.105072445838" />
-              <point x="840.0" y="5845.105072445838" />
-              <point x="920.0" y="5855.905072445838" />
-              <point x="-65.5" y="-7.399999999999636" />
-            </edge>
-            <edge source="org.jibx:jibx-bind:jar:1.2.6/org.jibx:jibx-run:jar:1.2.6" target="org.jibx:jibx-bind:jar:1.2.6/org.jibx:jibx-run:jar:1.2.6/xpp3:xpp3:jar:1.1.3.4.O">
-              <point x="50.0" y="-9.25" />
-              <point x="-39.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-api-2.1:jar:6.1.14" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:servlet-api-2.5:jar:6.1.14">
-              <point x="60.5" y="-0.0" />
-              <point x="1152.0" y="2589.926151974272" />
-              <point x="1232.0" y="3082.3231758017255" />
-              <point x="-74.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/tomcat:jasper-runtime:jar:5.5.23">
-              <point x="43.0" y="-13.742857142857247" />
-              <point x="517.0" y="3883.745548636314" />
-              <point x="597.0" y="2829.5249615160114" />
-              <point x="-76.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4">
-              <point x="75.5" y="-12.33333333333303" />
-              <point x="840.0" y="5717.821739112505" />
-              <point x="920.0" y="5624.8217391125045" />
-              <point x="-98.5" y="12.33333333333303" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.slf4j:slf4j-log4j12:jar:1.4.3" target="org.apache.hbase:hbase:jar:0.94.2/org.slf4j:slf4j-log4j12:jar:1.4.3/log4j:log4j:jar:1.2.13">
-              <point x="66.5" y="-0.0" />
-              <point x="-39.0" y="-0.0" />
-            </edge>
-            <edge source="org.jibx:jibx-bind:jar:1.2.6" target="log4j:log4j:jar:1.2.17">
-              <point x="54.0" y="13.875" />
-              <point x="517.0" y="1242.651785696356" />
-              <point x="597.0" y="1371.0833333333335" />
-              <point x="-39.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3/org.jboss.netty:netty:jar:3.2.2.Final">
-              <point x="60.5" y="12.33333333333303" />
-              <point x="840.0" y="4506.5151915113875" />
-              <point x="920.0" y="4590.988405779171" />
-              <point x="-40.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8">
-              <point x="70.0" y="8.043478260869506" />
-              <point x="517.0" y="2157.5702639572255" />
-              <point x="597.0" y="2311.4410329445827" />
-              <point x="840.0" y="2311.4410329445827" />
-              <point x="920.0" y="4635.113405779171" />
-              <point x="-95.5" y="-13.875" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-security:jar:8.1.15.v20140411" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411">
-              <point x="69.5" y="-0.0" />
-              <point x="840.0" y="5149.863405779171" />
-              <point x="920.0" y="5144.613405779171" />
-              <point x="-63.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="61.5" y="-0.0" />
-              <point x="1719.0" y="5641.488405779171" />
-              <point x="-51.5" y="5.550000000000182" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0" target="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0">
-              <point x="78.0" y="12.333333333333371" />
-              <point x="517.0" y="856.0000000000005" />
-              <point x="597.0" y="929.0" />
-              <point x="-93.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4">
-              <point x="106.0" y="-12.33333333333303" />
-              <point x="840.0" y="5640.821739112505" />
-              <point x="920.0" y="5612.488405779171" />
-              <point x="-98.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4">
-              <point x="98.5" y="12.33333333333303" />
-              <point x="1152.0" y="5624.8217391125045" />
-              <point x="1232.0" y="5642.1550724458375" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.jboss.marshalling:jboss-marshalling:jar:1.3.0.CR9">
-              <point x="96.0" y="-4.774193548387075" />
-              <point x="272.0" y="810.041666666667" />
-              <point x="517.0" y="810.041666666667" />
-              <point x="597.0" y="799.541666666667" />
-              <point x="-87.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.httpcomponents:httpclient:jar:4.2.1" target="org.apache.httpcomponents:httpclient:jar:4.2.1/commons-logging:commons-logging:jar:1.1.1">
-              <point x="57.0" y="12.333333333333258" />
-              <point x="517.0" y="1495.3333333333333" />
-              <point x="597.0" y="1544.3333333333335" />
-              <point x="1152.0" y="1544.3333333333335" />
-              <point x="1232.0" y="2648.1410329445825" />
-              <point x="-90.5" y="-14.800000000000182" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.sonatype.sisu.inject:cglib:jar:2.2.3">
-              <point x="96.0" y="-2.387096774193651" />
-              <point x="272.0" y="1120.3333333333335" />
-              <point x="-38.5" y="-0.0" />
-            </edge>
-            <edge source="redis.clients:jedis:jar:2.0.0" target="redis.clients:jedis:jar:2.0.0/commons-pool:commons-pool:jar:1.5.5">
-              <point x="37.5" y="-0.0" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4/com.sun.xml.bind:jaxb-impl:jar:2.2.11">
-              <point x="109.5" y="4.625" />
-              <point x="1531.0" y="5583.488405779171" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.jibx:jibx-bind:jar:1.2.6">
-              <point x="96.0" y="-1.1935483870968255" />
-              <point x="272.0" y="1228.776785696356" />
-              <point x="-54.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8">
-              <point x="43.0" y="-12.685714285714312" />
-              <point x="517.0" y="3884.802691493457" />
-              <point x="597.0" y="2915.7749615160114" />
-              <point x="-61.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jetty:jar:6.1.26">
-              <point x="43.0" y="-4.228571428571286" />
-              <point x="517.0" y="3893.2598343506006" />
-              <point x="597.0" y="3733.4884057791714" />
-              <point x="-37.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE">
-              <point x="70.0" y="-0.0" />
-              <point x="1152.0" y="259.375" />
-              <point x="1232.0" y="262.96428569635555" />
-              <point x="-64.0" y="-4.625" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.lucene:lucene-queryparser:jar:4.4.0">
-              <point x="96.0" y="17.9032258064517" />
-              <point x="272.0" y="5903.105072445838" />
-              <point x="-94.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="ch.qos.logback:logback-core:jar:1.2.3">
-              <point x="96.0" y="-8.354838709677324" />
-              <point x="272.0" y="637.541666666667" />
-              <point x="-70.5" y="9.25" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="com.google.guava:guava:jar:19.0">
-              <point x="96.0" y="-14.322580645161224" />
-              <point x="272.0" y="423.375" />
-              <point x="1152.0" y="423.375" />
-              <point x="1232.0" y="740.5314063409878" />
-              <point x="-43.5" y="-14.800000000000182" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2/net.java.dev.jets3t:jets3t:jar:0.6.1" target="org.apache.httpcomponents:httpclient:jar:4.2.1/commons-logging:commons-logging:jar:1.1.1">
-              <point x="41.0" y="-12.333333333333258" />
-              <point x="840.0" y="1623.6250000000002" />
-              <point x="920.0" y="1615.2916666666667" />
-              <point x="1152.0" y="1615.2916666666667" />
-              <point x="1232.0" y="2655.5410329445826" />
-              <point x="-90.5" y="-7.400000000000091" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/org.mortbay.jetty:jsp-api-2.1:jar:6.1.14">
-              <point x="70.0" y="3.2173913043479843" />
-              <point x="517.0" y="2152.744177000704" />
-              <point x="597.0" y="2290.041666666667" />
-              <point x="840.0" y="2290.041666666667" />
-              <point x="920.0" y="2577.5928186409383" />
-              <point x="-60.5" y="-12.333333333333485" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro:jar:1.5.3">
-              <point x="51.5" y="13.875" />
-              <point x="840.0" y="3988.056858178054" />
-              <point x="920.0" y="4138.6818581780535" />
-              <point x="-37.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.apache.velocity:velocity:jar:1.7" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.avro:avro-ipc:jar:1.5.3/org.apache.velocity:velocity:jar:1.7/commons-lang:commons-lang:jar:2.5">
-              <point x="49.0" y="9.25" />
-              <point x="1152.0" y="3964.7384057791714" />
-              <point x="1232.0" y="4427.738405779171" />
-              <point x="-78.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/commons-el:commons-el:jar:1.0">
-              <point x="70.0" y="-11.26086956521749" />
-              <point x="517.0" y="2138.2659161311385" />
-              <point x="597.0" y="1789.0416666666667" />
-              <point x="-68.0" y="-9.25" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="redis.clients:jedis:jar:2.0.0">
-              <point x="96.0" y="-7.161290322580726" />
-              <point x="272.0" y="704.041666666667" />
-              <point x="-37.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-server:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-server:jar:1.8/asm:asm:jar:3.1">
-              <point x="68.0" y="9.25" />
-              <point x="840.0" y="2998.3910329445825" />
-              <point x="920.0" y="3599.677691493457" />
-              <point x="-36.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/log4j:log4j:jar:1.2.16">
-              <point x="43.0" y="-3.1714285714283506" />
-              <point x="517.0" y="3894.3169772077435" />
-              <point x="597.0" y="3762.4884057791714" />
-              <point x="-39.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="75.5" y="-0.0" />
-              <point x="1719.0" y="5730.1550724458375" />
-              <point x="-51.5" y="12.949999999999818" />
-            </edge>
-            <edge source="org.msgpack:msgpack:jar:0.6.6" target="org.msgpack:msgpack:jar:0.6.6/com.googlecode.json-simple:json-simple:jar:1.1.1">
-              <point x="54.5" y="-9.25" />
-              <point x="517.0" y="31.839285696355546" />
-              <point x="597.0" y="18.5" />
-              <point x="-64.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0" target="com.google.guava:guava:jar:19.0">
-              <point x="93.0" y="-12.333333333333485" />
-              <point x="840.0" y="916.6666666666665" />
-              <point x="920.0" y="873.5333333333333" />
-              <point x="1152.0" y="873.5333333333333" />
-              <point x="1232.0" y="755.331406340988" />
-              <point x="-43.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-xml:jar:3.0.4">
-              <point x="102.0" y="-2.3125" />
-              <point x="517.0" y="5488.496985325535" />
-              <point x="597.0" y="5448.488405779171" />
-              <point x="-94.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.curator:curator-recipes:jar:2.7.0">
-              <point x="96.0" y="-3.5806451612902492" />
-              <point x="272.0" y="843.666666666667" />
-              <point x="-78.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.lucene:lucene-queryparser:jar:4.4.0" target="org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-sandbox:jar:4.4.0">
-              <point x="94.0" y="12.33333333333303" />
-              <point x="517.0" y="5915.43840577917" />
-              <point x="597.0" y="5947.7800724458375" />
-              <point x="-81.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-core:jar:1.8">
-              <point x="61.0" y="15.857142857142662" />
-              <point x="840.0" y="2922.382104373154" />
-              <point x="920.0" y="3343.701151974272" />
-              <point x="-62.0" y="-4.625" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
-              <point x="96.0" y="-0.0" />
-              <point x="272.0" y="1389.5833333333335" />
-              <point x="-39.0" y="9.25" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4">
-              <point x="96.0" y="9.54838709677415" />
-              <point x="-122.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1">
-              <point x="61.0" y="-15.857142857142662" />
-              <point x="840.0" y="2890.667818658869" />
-              <point x="920.0" y="2886.326151974272" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/tomcat:jasper-runtime:jar:5.5.23" target="org.apache.hadoop:hadoop-core:jar:1.1.2/commons-el:commons-el:jar:1.0">
-              <point x="76.5" y="-0.0" />
-              <point x="840.0" y="2829.5249615160114" />
-              <point x="920.0" y="1807.5416666666667" />
-              <point x="-68.0" y="9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-jaxrs:jar:1.8.8" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-core-asl:jar:1.8.8">
-              <point x="69.5" y="9.25" />
-              <point x="1152.0" y="4682.613405779171" />
-              <point x="1232.0" y="4813.973524844721" />
-              <point x="-82.5" y="4.625" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/javax.xml.bind:jaxb-api:jar:2.1">
-              <point x="43.0" y="15.857142857142662" />
-              <point x="517.0" y="3913.3455486363146" />
-              <point x="597.0" y="4827.363405779171" />
-              <point x="-51.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4">
-              <point x="102.0" y="6.9375" />
-              <point x="517.0" y="5497.746985325535" />
-              <point x="597.0" y="5600.155072445838" />
-              <point x="-98.5" y="-12.33333333333303" />
-            </edge>
-            <edge source="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0" target="org.apache.curator:curator-recipes:jar:2.7.0/org.apache.curator:curator-framework:jar:2.7.0/org.apache.zookeeper:zookeeper:jar:3.4.3">
-              <point x="93.0" y="-0.0" />
-              <point x="840.0" y="929.0" />
-              <point x="920.0" y="937.3333333333335" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="joda-time:joda-time:jar:2.2">
-              <point x="96.0" y="1.1935483870968255" />
-              <point x="272.0" y="1409.3333333333335" />
-              <point x="-57.5" y="9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.slf4j:slf4j-api:jar:1.7.9">
-              <point x="122.5" y="9.25" />
-              <point x="597.0" y="5308.863405779171" />
-              <point x="-50.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1/javax.xml.bind:jaxb-api:jar:2.2.2">
-              <point x="56.0" y="-0.0" />
-              <point x="1152.0" y="2886.326151974272" />
-              <point x="1232.0" y="2772.6410329445825" />
-              <point x="-51.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-transports-http:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="102.5" y="-0.0" />
-              <point x="1719.0" y="5385.863405779171" />
-              <point x="-51.5" y="-12.949999999999818" />
-            </edge>
-            <edge source="org.apache.httpcomponents:httpclient:jar:4.2.1" target="org.apache.httpcomponents:httpclient:jar:4.2.1/commons-codec:commons-codec:jar:1.6">
-              <point x="57.0" y="-12.333333333333258" />
-              <point x="517.0" y="1470.6666666666667" />
-              <point x="597.0" y="1438.3333333333335" />
-              <point x="-84.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-expression:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE">
-              <point x="87.5" y="-0.0" />
-              <point x="1152.0" y="394.375" />
-              <point x="1232.0" y="281.46428569635555" />
-              <point x="-64.0" y="13.875" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.4">
-              <point x="102.0" y="11.5625" />
-              <point x="517.0" y="5502.371985325535" />
-              <point x="597.0" y="5653.1550724458375" />
-              <point x="-106.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1">
-              <point x="61.0" y="-0.0" />
-              <point x="840.0" y="2906.5249615160114" />
-              <point x="920.0" y="3117.326151974272" />
-              <point x="-95.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6">
-              <point x="70.0" y="11.26086956521749" />
-              <point x="517.0" y="2160.7876552615735" />
-              <point x="-113.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-core-asl:jar:1.8.8">
-              <point x="43.0" y="11.628571428571377" />
-              <point x="517.0" y="3909.116977207743" />
-              <point x="597.0" y="4619.988405779171" />
-              <point x="1152.0" y="4619.988405779171" />
-              <point x="1232.0" y="4795.473524844721" />
-              <point x="-82.5" y="-13.875" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-transports-http:jar:3.0.4">
-              <point x="102.0" y="-16.1875" />
-              <point x="517.0" y="5474.621985325535" />
-              <point x="597.0" y="5395.113405779171" />
-              <point x="-102.5" y="9.25" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-lgpl:jar:1.9.13">
-              <point x="96.0" y="-13.129032258064626" />
-              <point x="272.0" y="452.375" />
-              <point x="-99.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.apache.httpcomponents:httpclient:jar:4.2.1">
-              <point x="96.0" y="2.387096774193651" />
-              <point x="272.0" y="1483.0" />
-              <point x="-57.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-io:commons-io:jar:2.1">
-              <point x="70.0" y="14.47826086956502" />
-              <point x="517.0" y="2164.005046565921" />
-              <point x="597.0" y="2743.2749615160114" />
-              <point x="-68.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/commons-cli:commons-cli:jar:1.2">
-              <point x="43.0" y="-15.857142857142662" />
-              <point x="517.0" y="3881.6312629220292" />
-              <point x="597.0" y="2684.7749615160114" />
-              <point x="-69.5" y="9.25" />
-            </edge>
-            <edge source="org.jibx:jibx-bind:jar:1.2.6" target="org.jibx:jibx-bind:jar:1.2.6/com.thoughtworks.qdox:qdox:jar:1.12.1">
-              <point x="54.0" y="-4.625" />
-              <point x="517.0" y="1224.151785696356" />
-              <point x="597.0" y="1226.3333333333335" />
-              <point x="-39.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jettison:jettison:jar:1.1">
-              <point x="61.0" y="10.571428571428442" />
-              <point x="840.0" y="2917.09639008744" />
-              <point x="920.0" y="3271.326151974272" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411" target="org.apache.cxf:cxf-rt-transports-http-jetty:jar:3.0.4/org.eclipse.jetty:jetty-server:jar:8.1.15.v20140411/org.eclipse.jetty:jetty-continuation:jar:8.1.15.v20140411">
-              <point x="63.0" y="9.25" />
-              <point x="1152.0" y="5144.613405779171" />
-              <point x="1232.0" y="5173.863405779171" />
-              <point x="-89.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.httpcomponents:httpclient:jar:4.2.1" target="org.apache.httpcomponents:httpclient:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1">
-              <point x="57.0" y="-0.0" />
-              <point x="517.0" y="1483.0" />
-              <point x="597.0" y="1515.3333333333335" />
-              <point x="-53.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.lucene:lucene-queryparser:jar:4.4.0" target="org.apache.lucene:lucene-queryparser:jar:4.4.0/org.apache.lucene:lucene-queries:jar:4.4.0">
-              <point x="94.0" y="-12.33333333333303" />
-              <point x="517.0" y="5890.771739112504" />
-              <point x="597.0" y="5874.105072445838" />
-              <point x="-76.5" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.jsoup:jsoup:jar:1.7.3">
-              <point x="96.0" y="4.774193548387075" />
-              <point x="272.0" y="3102.268400603188" />
-              <point x="-41.0" y="-0.0" />
-            </edge>
-            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="37.5" y="-0.0" />
-              <point x="-75.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8" target="org.apache.hbase:hbase:jar:0.94.2/com.sun.jersey:jersey-json:jar:1.8/org.codehaus.jackson:jackson-xc:jar:1.7.1">
-              <point x="61.0" y="5.285714285714221" />
-              <point x="840.0" y="2911.8106758017257" />
-              <point x="920.0" y="3194.326151974272" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1">
-              <point x="51.5" y="9.25" />
-              <point x="-91.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/stax:stax-api:jar:1.0.1">
-              <point x="43.0" y="1.057142857142935" />
-              <point x="517.0" y="3898.5455486363144" />
-              <point x="597.0" y="3926.4884057791714" />
-              <point x="1152.0" y="3926.4884057791714" />
-              <point x="1232.0" y="3814.5803186588687" />
-              <point x="-50.5" y="9.25" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="109.5" y="-4.625" />
-              <point x="1531.0" y="5554.488405779171" />
-              <point x="1719.0" y="5554.488405779171" />
-              <point x="-51.5" y="-1.8500000000003638" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-core:jar:3.0.4">
-              <point x="98.5" y="-0.0" />
-              <point x="1719.0" y="5612.488405779171" />
-              <point x="-51.5" y="1.8500000000003638" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-lang:commons-lang:jar:2.4">
-              <point x="113.0" y="14.800000000000182" />
-              <point x="920.0" y="2809.326151974272" />
-              <point x="-78.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.slf4j:jcl-over-slf4j:jar:1.7.25">
-              <point x="96.0" y="-11.9354838709678" />
-              <point x="272.0" y="529.375" />
-              <point x="-67.0" y="-0.0" />
-            </edge>
-            <edge source="org.sonatype.sisu.inject:cglib:jar:2.2.3" target="org.sonatype.sisu.inject:cglib:jar:2.2.3/asm:asm:jar:3.3.1">
-              <point x="38.5" y="-0.0" />
-              <point x="1719.0" y="1120.3333333333335" />
-              <point x="1799.0" y="5278.09519959332" />
-              <point x="-36.0" y="-12.33333333333303" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15">
-              <point x="60.5" y="-12.33333333333303" />
-              <point x="840.0" y="4481.848524844721" />
-              <point x="920.0" y="4351.303532926653" />
-              <point x="-39.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="org.msgpack:msgpack:jar:0.6.6">
-              <point x="96.0" y="-17.9032258064517" />
-              <point x="272.0" y="41.089285696355546" />
-              <point x="-54.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2/commons-net:commons-net:jar:1.4.1" target="org.apache.hadoop:hadoop-core:jar:1.1.2/oro:oro:jar:2.0.8">
-              <point x="74.0" y="-0.0" />
-              <point x="-33.5" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-xc:jar:1.8.8">
-              <point x="43.0" y="14.800000000000182" />
-              <point x="517.0" y="3912.2884057791716" />
-              <point x="597.0" y="4750.363405779171" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6" target="org.apache.hbase:hbase:jar:0.94.2/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8">
-              <point x="113.0" y="-14.800000000000182" />
-              <point x="920.0" y="2666.926151974272" />
-              <point x="-92.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-expression:jar:4.2.2.RELEASE">
-              <point x="76.0" y="13.875" />
-              <point x="517.0" y="263.375" />
-              <point x="597.0" y="394.375" />
-              <point x="-87.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-xc:jar:1.8.8" target="org.apache.hbase:hbase:jar:0.94.2/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8">
-              <point x="60.5" y="-9.25" />
-              <point x="840.0" y="4741.113405779171" />
-              <point x="920.0" y="4662.863405779171" />
-              <point x="-95.5" y="13.875" />
-            </edge>
-            <edge source="org.msgpack:msgpack:jar:0.6.6" target="org.msgpack:msgpack:jar:0.6.6/org.javassist:javassist:jar:3.16.1-GA">
-              <point x="54.5" y="9.25" />
-              <point x="517.0" y="50.339285696355546" />
-              <point x="597.0" y="95.5" />
-              <point x="-51.0" y="-0.0" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="io.netty:netty-all:jar:5.0.0.Alpha1">
-              <point x="96.0" y="14.322580645161224" />
-              <point x="272.0" y="5644.809485325535" />
-              <point x="-52.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2" target="org.apache.hbase:hbase:jar:0.94.2/org.apache.zookeeper:zookeeper:jar:3.4.3">
-              <point x="43.0" y="10.571428571428442" />
-              <point x="517.0" y="3908.0598343506" />
-              <point x="597.0" y="4494.1818581780535" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hbase:hbase:jar:0.94.2/javax.xml.bind:jaxb-api:jar:2.1" target="org.apache.hbase:hbase:jar:0.94.2/javax.xml.bind:jaxb-api:jar:2.1/javax.activation:activation:jar:1.1">
-              <point x="51.0" y="-0.0" />
-              <point x="-57.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/tomcat:jasper-runtime:jar:5.5.12">
-              <point x="70.0" y="-0.0" />
-              <point x="517.0" y="2149.526785696356" />
-              <point x="597.0" y="2184.041666666667" />
-              <point x="-76.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4" target="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4/wsdl4j:wsdl4j:jar:1.6.3">
-              <point x="61.5" y="12.33333333333303" />
-              <point x="1719.0" y="5653.8217391125045" />
-              <point x="-44.0" y="-9.25" />
-            </edge>
-            <edge source="org.apache.hadoop:hadoop-core:jar:1.1.2" target="org.apache.hadoop:hadoop-core:jar:1.1.2/net.java.dev.jets3t:jets3t:jar:0.6.1">
-              <point x="70.0" y="-14.47826086956502" />
-              <point x="517.0" y="2135.048524826791" />
-              <point x="597.0" y="1635.9583333333335" />
-              <point x="-41.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.4/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.4/org.apache.cxf:cxf-rt-wsdl:jar:3.0.4" target="org.sonatype.sisu.inject:cglib:jar:2.2.3/asm:asm:jar:3.3.1">
-              <point x="61.5" y="-12.33333333333303" />
-              <point x="1719.0" y="5629.155072445838" />
-              <point x="1799.0" y="5302.761866259986" />
-              <point x="-36.0" y="12.33333333333303" />
-            </edge>
-            <edge source="com.june.demo:june-demo-practice:1.0-SNAPSHOT" target="com.caucho:hessian:jar:4.0.7">
-              <point x="96.0" y="8.354838709677324" />
-              <point x="272.0" y="4531.325516854817" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="1342.0" y="5775.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Users/think/.m2/repository/org/apache/zookeeper/zookeeper/3.4.3/zookeeper-3.4.3.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/mybatis/MyBatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Users/think/.m2/repository/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3-sources.jar!/org/slf4j/LoggerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Users/think/.m2/repository/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.jar!/org/slf4j/impl/StaticLoggerBinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5271">
-          <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-practice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-generic/src/main/java/com/june/demo/constant/ZookeeperConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2856">
@@ -2313,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2440,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2448,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2456,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2464,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
           <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2472,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2480,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2488,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2496,83 +1077,222 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Users/think/.m2/repository/org/apache/zookeeper/zookeeper/3.4.3/zookeeper-3.4.3-sources.jar!/org/apache/zookeeper/ZooDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2688">
-          <caret line="787" column="131" lean-forward="true" selection-start-line="787" selection-start-column="131" selection-end-line="787" selection-end-column="131" />
-          <folding>
-            <marker date="1541345684845" expanded="true" signature="177706:177723" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177706:177741" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177706:177754" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177706:177769" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177804:180413" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177817:180398" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177871:178166" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177890:178151" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177953:178131" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="177993:178097" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178014:178075" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178216:178525" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178235:178510" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178312:178490" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178352:178456" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178373:178434" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178576:178895" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178595:178880" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178682:178860" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178722:178826" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178743:178804" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178938:179244" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="178957:179229" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="179031:179209" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="179071:179175" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="179092:179153" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="179295:179654" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="179314:179639" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="179402:179619" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="179442:179585" ph="..." />
-            <marker date="1541345684845" expanded="true" signature="179463:179563" ph="..." />
-          </folding>
+        <state relative-caret-position="-315">
+          <caret line="788" column="130" lean-forward="false" selection-start-line="788" selection-start-column="130" selection-end-line="788" selection-end-column="130" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="336">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Users/think/.m2/repository/org/apache/zookeeper/zookeeper/3.4.3/zookeeper-3.4.3-sources.jar!/org/apache/zookeeper/ZooDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="222" column="33" lean-forward="false" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/aqs/AQSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/guava/collection/GuavaCollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/zookeeper/ZookeeperClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/lock/SpinLock.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/lock/SpinLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/impl/LinkedRunnableQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/ThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/DenyPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/RunnableDenyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/impl/BasicThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/RunnableQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/concurrency/treadpool/api/InternalTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/io/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-demo-practice/src/main/java/com/june/demo/jdk8/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#405#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2483#2484#0" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+            <element signature="e#2559#2560#0" expanded="true" />
+            <element signature="e#2589#2590#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#2659#2660#0" expanded="true" />
+            <element signature="e#2695#2696#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2629,7 +1349,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>june-demo-starter</last-edited>
+          <last-edited>june-demo-practice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
