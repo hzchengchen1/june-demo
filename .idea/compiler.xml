@@ -13,10 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="june-demo" target="1.5" />
-      <module name="june-demo-generic" target="1.5" />
-      <module name="june-demo-practice" target="1.5" />
-      <module name="june-demo-starter" target="1.5" />
+      <module name="june-demo" target="1.8" />
+      <module name="june-demo-generic" target="1.8" />
+      <module name="june-demo-practice" target="1.8" />
+      <module name="june-demo-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

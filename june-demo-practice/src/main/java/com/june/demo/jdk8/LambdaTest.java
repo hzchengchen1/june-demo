@@ -2,26 +2,12 @@ package com.june.demo.jdk8;
 
 import com.google.common.collect.Lists;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Lambda 核心思想：行为参数化(behavior parameterization)
  */
 public class LambdaTest {
-
-    public static List<Apple> filterApples(List<Apple> inventory, String color,
-                                           int weight, boolean flag) {
-        List<Apple> result = new ArrayList<Apple>();
-        for (Apple apple : inventory) {
-            // 这地方是过滤行为
-            if ((flag && apple.getColor().equals(color)) ||
-                    (!flag && apple.getWeight() > weight)) {
-                result.add(apple);
-            }
-        }
-        return result;
-    }
 
     // 行为参数化
     // ----------------jdk8之前的实现-------------------
@@ -87,19 +73,19 @@ class Apple {
 
     private int weight;
 
-    public String getColor() {
+    String getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    void setColor(String color) {
         this.color = color;
     }
 
-    public int getWeight() {
+    int getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    void setWeight(int weight) {
         this.weight = weight;
     }
 
